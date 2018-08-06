@@ -17,7 +17,8 @@ final variable takes participate in serialization on compile time
 transient->final
 transient->static
 
-3- Object graph- dependent object will also be serialized and deserialized
+3- Object graph- dependent object will also be serialized and deserialized atomatically.
+                 if any class doesn't implements serialization then NotSerializable Exception for that class. 
 4- customized serialization
 5- serialization wrt to inheritence
 6- externlization
