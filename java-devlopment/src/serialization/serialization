@@ -1,0 +1,18 @@
+introduction-: The process of saving a state of object into file is called serialization.
+a)The process of converting an object from java supported form to File/Network supported form is know as serialization.
+The reading an state of object from file/network is known as deserialization. 
+b)File/Network supported to java supported .
+
+
+
+			   
+
+
+transient->final
+transient->static
+
+3- Object graph
+4- customized serialization
+5- serialization wrt to inheritence
+6- externlization
+7- serial version uid

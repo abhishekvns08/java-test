@@ -1,0 +1,24 @@
+introduction-: The process of saving a state of object into file is called serialization.
+a)The process of converting an object from java supported form to File/Network supported form is know as serialization.
+The reading an state of object from file/network is known as deserialization. 
+b)File/Network supported to java supported .
+
+
+Transient is apply only for instance Variable.
+1-: static variable is part of class level memory while loading the class therefore static valiable not take part in serialization.
+2-: declaring static variable as a transient there is no use of that.
+
+			   
+Final vs Transient
+final means is constant every final variable is replaced by the value on compile 
+time not runtime(there is no final on runtime)
+final variable takes participate in serialization on compile time
+
+transient->final
+transient->static
+
+3- Object graph- dependent object will also be serialized and deserialized
+4- customized serialization
+5- serialization wrt to inheritence
+6- externlization
+7- serial version uid
